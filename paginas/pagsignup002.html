@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Endereço</title>
+    <link rel="stylesheet" href="../assets/css/estilo002.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imagem-login">
+            <img src="../assets/imagens/login-fone.svg" alt="ilustracao-da-página001">
+        </div>
+
+        <div class="form-address">
+            <form action="#" method="post" autocomplete="on">
+                <div class="form-address-header">
+                    <div class="title">
+                        <h1>Localização</h1>
+                    </div>
+
+                    <div class="login-button">
+                        <button><a href="#">Login</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <input type="text" name="rua" id="rua" class="input-user" required minlength="10" maxlength="60">
+                        <label for="rua" class="label-input">Rua</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" name="cep" id="cep" required class="input-user" min="8" max="9">
+                        <label for="cep" class="label-input">Cep</label>                        
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" name="bairro" id="bairro" class="input-user" required minlength="4" maxlength="30">
+                        <label for="bairro"class="label-input">Bairro<label>
+                    </div>
+
+                    <div class="input-box">                        
+                        <input type="text" name="cidade" id="cidade" class="input-user" required minlength="10" maxlength="60">
+                        <label for="cidade" class="label-input">Cidade</label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="estado">Estado</label>
+                        <select name="estado" id="estado" class="input-user" required>
+                            <option value="">---Selecione--</option>
+                            <option value="Acre">Acre</option>
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Amapa">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceara">Ceará</option>
+                            <option value="Espirito Santo">Espírito Santo</option>
+                            <option value="Goias">Goiás</option>
+                            <option value="Maranhao">Maranhão</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Para">Pará</option>
+                            <option value="Paraiba">Paraíba</option>
+                            <option value="Parana">Paraná</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piaui">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Rondonia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="Sao Paulo">São Paulo</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Tocantins">Tocantins</option>
+                            <option value="Distrito Federal">Distrito Federal</option>
+                        </select>
+                        
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" name="numero" id="numero" required class="input-user" min="1" max="9">
+                        <label for="numero" class="label-input">Número</label>
+                        
+                    </div>
+
+                    <div class="text-box">
+                        <label for="complemento">Complemento</label>
+                        <textarea name="complemento" id="complemento" cols="30" rows="" placeholder="Casa, apartamento..."></textarea>
+                    </div>
+
+                    <div class="text-box">
+                        <label for="info-adicionais">Informações adicionais para entregas neste endereço (opcional)</label>
+                        <textarea name="info-adicionais" id="info-adicionais" cols="30" rows="2" placeholder="Descrição da fachada, ponto de refência..."></textarea>
+                    </div>
+
+                
+                </div>
+
+                <div class="nav-button">
+                    <button><a href="pagsignup001.html">Voltar</a></button>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
